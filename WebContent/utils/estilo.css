@@ -1,0 +1,195 @@
+BODY {
+	font-family: Verdana, Trebuchet, Helvetica, Arial;
+
+}
+
+/* Estilo de todas as tabelas que irão posicionar componentes*/
+table.azul {
+	border-color: #c7d8e0;
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;	
+
+}
+
+/* Estilo para a linha título da tabela (table.azul)*/
+tr.titTabela {
+	border: 1px dotted #999;
+	background-color: #eee;
+	color: #000;
+	align: center;
+	font-size: 8pt;
+	text-align: center;
+	height:20px;
+	font-weight: bold;
+}
+
+/* Estilo para opções de escolha.
+Ex:
+	posso ter um grupo de radio com vários
+	opçoes, cada opção deste grupo deverá usar 
+	este estilo.
+*/
+.opcao{
+	font-size: 8pt
+}
+
+/* Estilo para itens de escolha.
+Ex:
+	posso ter um grupo de radio com várias
+	cidades para escolher. 
+	O título: "Escolha uma cidade", deverá usar
+	este estilo.Cada opção deste grupo deverá usar 
+	o estilo 'opcao'. 
+*/
+.item{
+	font-size: 7pt;
+	font-weight: bold;
+		color: #aaa;
+}
+
+.nome{
+	font-size: 10pt;
+	font-weight: bold;
+}
+/* Estilo para os botões da aplicação
+.botao {
+	border-color: #8893B5;
+	background-color: white;
+	font-size: 9pt
+}
+*/
+
+/* Estilo para os erros de validação do servidor*/
+.errosValidacao {
+	color: red;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 9pt
+}
+
+TABLE.template{
+	height: 100%;
+	border: 0px;
+	padding: 0px;	
+	border-spacing: 0px;
+	background-color: #CFD8D7;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+TABLE.conteudo{
+	padding: 0px;
+	border-spacing: 0px;
+	width: 98%;
+	background-color: #FFFFFF;
+	border-color: #FFF;
+	border-width: 0px;
+	color: #000000;
+	font-size: 12px;
+}
+
+TABLE.conteudo TD.label{
+
+	font-weight: bold;
+}
+
+/*
+TABLE.conteudo a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+TABLE.conteudo a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+TABLE.conteudo a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+*/
+TABLE.tabBarraExpansao{
+	padding: 0px;
+	border-spacing: 0px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-color: #FFF;
+	border-width: 0px;
+	font-weight: bold;
+}
+
+TABLE.fundoLogoReceita{
+	background-position: bottom;
+	background-repeat: no-repeat;
+	width: 99%;
+	height: 100%;
+}
+
+INPUT.text {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCCCCC;
+}
+
+INPUT.botao {
+	border: 1px solid #999;
+	background-color: #eee;
+	cursor: pointer;
+	color: #000;
+}
+
+.saidaDados {
+	border-width: 1px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	margin-left: 2px;
+	font-family: Verdana, Trebuchet, Helvetica, Arial;
+	color: red;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+.menuLateral {
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #000000;
+	border: 0;
+	font-size: 10px;
+}
+
+.menuLateral TABLE{
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	border: 0;
+	width: 220px;
+	text-align: center;
+}
+
+.menuLateral TABLE TD{
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	color: #000000;
+	border: 0;
+	width: 100%;
+}
+
+.menuLateral a:link{
+	color: #000000;
+	text-decoration: none;
+}
+
+.menuLateral a:hover{
+	color: #666666;
+	text-decoration: none;
+}
+
+.menuLateral a:visited{
+	color: #000000;
+	text-decoration: none;
+}

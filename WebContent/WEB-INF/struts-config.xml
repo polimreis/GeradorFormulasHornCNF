@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+
+<struts-config>
+
+	<!-- Beans de Formulário -->
+	<form-beans>
+		<form-bean name="form"
+			type="gerador.form.Form">
+		</form-bean>
+	</form-beans>
+
+	<!-- Exceções Globais -->
+	<global-exceptions></global-exceptions>
+
+	<!-- Avanços Globais -->
+	<global-forwards>
+		<forward name="INDEX" path="/index.jsp" />
+	</global-forwards>
+	
+	
+	<action-mappings>
+		<action path="/action"
+			type="gerador.action.GerarFormulasHornAction" name="form"
+			parameter="metodo">
+		</action>
+	</action-mappings>
+
+</struts-config>
